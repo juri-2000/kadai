@@ -1,0 +1,39 @@
+/*以下のCSSファイルを保存し、Webサイトを作ってみよう-2で作成したファイルに保存してみてください*/
+p {
+  font-size: 40px;
+  color: red;
+}
+li {
+  color: green;
+}
+#list_id {
+  color: blue;
+}
+
+.list_class {
+  color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: red; /*背景の色*/
+  width: 200px; /*要素の幅*/
+  height: 200px; /*要素の高さ*/
+  border: 3px solid #000; /*枠線の追加*/
+  padding: 30px; /*要素の内側の余白*/
+  margin: 30px; /*要素の外側の余白*/
+}
+
+.box-txt{
+  font-size: 30px; /*文字のサイズ*/
+  color: blue; /*文字の色*/
+  font-weight: bold; /*文字の太さ*/
+  text-align: center;/*行揃えの位置や、均等割付を指定*/}
+
+  /*この章のまとめ
+　classやidはスタイリングする箇所の指定に使う
+　同じclass名を何回でも使って大丈夫
+　同じid名はページ中に１回まで*/
